@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --padding_value: "40px";
+}
+.heroHome {
+  height: 976px;
+  background-image: url("../../../public//images/home/hero/Rectangle\ 19290.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.navbar_button {
+  background-color: #df6951;
+}
+.heromaintext {
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 67.908px; /* 116.071% */
+}
+.heromaindiv2 {
+  background: rgba(243, 243, 243, 0.6);
+}
+.heroButtonmain {
+  display: inline-flex;
+  padding: 16px 57.561px 15.416px 57px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #df6951;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+.heromaindiv2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.company {
+  background-color: #f7f7f7;
+}
+.companyImage {
+  width: 221px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.companyImage2 {
+  width: 143.385px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.category {
+  color: #df6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.we_offer_best {
+  color: #181e4b;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.guided_tour {
+  color: var(--text-heading-color, #1e1d4c);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.guided_tour_texts {
+  color: var(--textclr, #5e6282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.travelling_image {
+  width: 92px;
+  height: 92px;
+  flex-shrink: 0;
+}
+.honeymoonImage {
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+.viewPackages {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16.716px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.honeyMoon {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.our_romantic_texts {
+  color: #181e4b;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.042px; /* 142.085% */
+}
+.et_labore_harum {
+  color: var(--black, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.honeyMoonPackages {
+  color: var(--black, #000);
+  font-family: Poppins;
+  font-size: 51.192px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 67.908px; /* 132.653% */
+  transform: rotate(-90deg);
+  opacity: 0.1;
+}
+.viewPackages {
+  border-radius: 10px;
+  background: #df6951;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+  display: flex;
+  width: 176.561px;
+  height: 56.416px;
+  padding: 0px 36.566px 9.403px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.447px;
+  flex-shrink: 0;
+}
+.fastAndEasy {
+  color: #df6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.get_your_favorite {
+  color: #181e4b;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.choose_destination {
+  color: var(--textclr, #5e6282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%; /* 19.92px */
+}
+.lorem_ipsum {
+  color: var(--textclr, #5e6282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%; /* 19.92px */
+}
+.trip_to_hawaii {
+  color: var(--black, #080809);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%; /* 22.41px */
+  letter-spacing: 0.27px;
+}
