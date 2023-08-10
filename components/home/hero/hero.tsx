@@ -35,7 +35,7 @@ const HeroHome = () => {
                             <span>you’re going to, we’ll</span>
                             <span>take you there</span>
                         </div>
-                        <div className="heromaindiv2 flex items-center justify-between pl-4 pr-4 p-4">
+                        <div className="heromaindiv2 flex items-center justify-between pl-4 pr-4 p-2 md:p-4">
                             <div>
                                 <span>Where to?</span>
                             </div>
@@ -48,10 +48,10 @@ const HeroHome = () => {
                                 <img src="/images/home/hero/Vector (1).png" alt="img" />
                             </div>
                             <div>
-                                <button className="heroButtonmain">submit</button>
+                                <button className="heroButtonmain md:pl-16 md:pr-16 pl-6 pr-6 p-3 md:p-4">submit</button>
                             </div>
                         </div>
-                        <div className="flex items-center gap-8">
+                        <div className="flex items-start md:items-center md:flex-row flex-col gap-2 md:gap-8">
                             <div className="flex items-center">
                                 <img src="/images/home/hero/Ellipse 31.png" alt="img" />
                                 <img src="/images/home/hero/Ellipse 35.png" alt="img" />
@@ -69,29 +69,29 @@ const HeroHome = () => {
                     </div>
                 </div>
             </div>
-            <div className="company flex p-12 items-center  justify-between pl-32 pr-32 ">
+            <div className="company flex p-4 md:p-12 items-center  justify-between md:pl-32 md:pr-32 ">
                 <img
-                    className="companyImage2"
+                    className="companyImage2 md:h-12 h-5"
                     src="/images/home/company/image 909.png"
                     alt="img"
                 />
                 <img
-                    className="companyImage"
+                    className="companyImage md:h-12 h-5"
                     src="/images/home/company/image 914.png"
                     alt="img"
                 />
                 <img
-                    className="companyImage2"
+                    className="companyImage2 md:h-12 h-5"
                     src="/images/home/company/image 909.png"
                     alt="img"
                 />
                 <img
-                    className="companyImage"
+                    className="companyImage md:h-12 h-5"
                     src="/images/home/company/image 914.png"
                     alt="img"
                 />
                 <img
-                    className="companyImage2"
+                    className="companyImage2 md:h-12 h-5"
                     src="/images/home/company/image 909.png"
                     alt="img"
                 />

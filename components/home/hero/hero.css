@@ -21,16 +21,15 @@
 .heromaintext {
   color: #fff;
   font-family: Poppins;
+  /* font-size: 58.506px; */
   font-style: normal;
   font-weight: 700;
-  line-height: 67.908px; /* 116.071% */
 }
 .heromaindiv2 {
   background: rgba(243, 243, 243, 0.6);
 }
 .heroButtonmain {
   display: inline-flex;
-  padding: 16px 57.561px 15.416px 57px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -48,16 +47,16 @@
 .company {
   background-color: #f7f7f7;
 }
-.companyImage {
+/* .companyImage {
   width: 221px;
   height: 50px;
   flex-shrink: 0;
-}
-.companyImage2 {
+} */
+/* .companyImage2 {
   width: 143.385px;
   height: 50px;
   flex-shrink: 0;
-}
+} */
 .category {
   color: #df6951;
   text-align: center;
